@@ -1,128 +1,127 @@
-body {
-	width: 100%;
-	font-family: 'Nunito Sans', sans-serif;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+    <meta name="description" content="This is an example of a meta description.">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-h1 {
-	font-size: 60px;
-}
+<header>
 
-h2 {
-	font-size: 40px;
-	text-align: center;
-}
+<div class="header-container">
+<nav>		
 
-h3 {
-	font-size: 24px;
+<h1>The VC Experience</h1>
 
-}
+<div class="nav-container">
+<ul>
+	<a href="#mission"><li>Mission Statement</li></a>
+	<a href="#portfolio"><li>Portfolio</li></a>
+	<a href="#team"><li>Investment Team</li></a>
+</ul>
 
-ul {
-	list-style-type: none;
-}
+</nav>
+</div>
+</div>
 
-a {
-	text-decoration: none;
-}
+</header>
 
-li {
-	font-size: 36px;
-	text-decoration: underline;
-}
+<section>
+
+<div class="hero-container">
+
+<div id="mission" class="hero-title">
+	<h2>The VC Experience</h2>
+	<h3>Our fund is commited to the furthering entrepreneurs in the mobility sector.</h3>
+</div>
+
+</div>
+</section>
+
+<section id="portfolio" class="portfolio">
+<h2>Our Mobility Portfolio</h2>
+<h3>Impacting diverse sectors of mobility to better the human experience and the world we inhabit.</h3>
+
+<div class="portfolio-container">
+
+<div class="aero">
+<img src="https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/hangar.jpg">
+<h3>AeroArgonauts</h3>
+</div>
+
+<div class="auto">
+	<img src="https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/dashboard.jpg">
+	<h3>AutoBueno</h3>
+</div>
+
+<div class="lane">
+	<img src="https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-lights.jpg">
+	<h3>LaneChatter</h3>
+</div>
+
+<div class="treads">
+	<img src="https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/tires.jpg">
+	<h3>TigerTreads</h3>
+</div>
+
+<div class="valet">
+	<img src="https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/truck.jpg">
+	<h3>ValetToday</h3>
+</div>
+
+</div>
 
 
+</div>
 
-.header-container {
-	text-align: center;
+</section>
 
-}
 
-.nav-container ul {
-	display: flex;
-	justify-content: space-around;
-	cursor: pointer;
-}
-
-.hero-container {
-	text-align: center;
-	margin-top: 2em;
-	background-image: url("https://static01.nyt.com/images/2020/04/22/arts/22kimmelman-skyscrapers1/22kimmelman-skyscrapers1-videoSixteenByNineJumbo1600.jpg");
-	background-position: center; 
-  	background-repeat: no-repeat; 
-  	background-size: cover;
-  	height: 500px;
-  	display: flex;
-  	align-items: center;
-  	margin-left: -2em;
-  	
-}
-
-.hero-title {
-	background-color: #ffffff;
-	width: 100%;
-
-}
-
-.portfolio {
-	margin-top: 4em;
-}
-
-.portfolio h3 {
-	text-align: center;
-}
-
-.portfolio-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 6em;
-}
-
-.portfolio-container img {
-	height: 300px;
-	width: 300px;
+<h2 id="team"> Our Team</h2>
+<section class="team">
 	
-}
+		<div class="team-container">
+		<div class="team-img-1">
+			<img src="https://techpoint.com.ng/wp-content/uploads/2019/03/team-member-02.jpg">
+			<h2>Lea Thomson</h2>
+			<h2>CEO</h2>
+		</div>
+			
+		<div class="team-img-2">
+			<img src="https://www.mediachange.ch/media/medialibrary/2014/09/Festic-news.jpg">
+			<h2>Katie Son</h2>
+			<h2>Partner</h2>
+		</div>
 
-.portfolio-container h3 {
-	text-align: center;
-}
+		<div classs="team-img-3">
+			<img src="https://cdn.powerpackelements.com/wp-content/uploads/2017/11/Team-memeber-01.png">
+			<h2>Terry Quaid</h2>
+			<h2>Consultant</h2>
+		</div>
 
+		</div>
 
-
-.team {
-	text-align: center;
-	background-image: url("https://wallup.net/wp-content/uploads/2016/05/02/246393-city-London-England-Tower_Bridge-bridge-street-street_light-night-cobblestone-River_Thames.jpg");
-	position: relative;
-	margin-left: -2em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-
-.team-container {
-	display: flex;
-	margin-top: 4em;
-
-}
-
-.team-container h2 {
-	color: lightgreen;
-}
+		
+</section>
 
 
-img {
-	height: 350px;
-	width: 350px;
-	margin-left: 2em;
-}
+<footer>
+	<h2>The VC Experience</h2>
+	<h3>introduction@vcexperience.investors</h3>
+	<h3>555-867-5309</h3>
+	<h4>copyright VC Enterprises 2020</h4>
+</footer>
 
-footer {
-	text-align: center;
-}
 
-footer h4 {
-	margin-top: 4em;
-}
+  </body>
+</html>
