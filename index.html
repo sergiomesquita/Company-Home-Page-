@@ -1,42 +1,128 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Untitled</title>
-    <meta name="description" content="This is an example of a meta description.">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" type="text/css" href="theme.css">
+body {
+	width: 100%;
+	font-family: 'Nunito Sans', sans-serif;
+}
 
-    <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+h1 {
+	font-size: 60px;
+}
 
-<header>
-<nav>		
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
 
-<h1>The VC Experience</h1>
+h3 {
+	font-size: 24px;
 
-<ul>
-	<li>Mission Statement</li>
-	<li>Portfolio</li>
-	<li>Investment Team</li>
-</ul>
+}
 
-</nav>
-</header>
+ul {
+	list-style-type: none;
+}
 
+a {
+	text-decoration: none;
+}
 
-<h2>The VC Experience</h2>
-<h3>Our fund is commited to the furthering entrepreneurs in the mobility sector.</h3>
-
-<h2>Our Mobility Portfolio</h2>
-<h3>Impacting diverse sectors of mobility to better the human experience and the world we inhabit</h3>
+li {
+	font-size: 36px;
+	text-decoration: underline;
+}
 
 
 
-  </body>
-</html>
+.header-container {
+	text-align: center;
+
+}
+
+.nav-container ul {
+	display: flex;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+.hero-container {
+	text-align: center;
+	margin-top: 2em;
+	background-image: url("https://static01.nyt.com/images/2020/04/22/arts/22kimmelman-skyscrapers1/22kimmelman-skyscrapers1-videoSixteenByNineJumbo1600.jpg");
+	background-position: center; 
+  	background-repeat: no-repeat; 
+  	background-size: cover;
+  	height: 500px;
+  	display: flex;
+  	align-items: center;
+  	margin-left: -2em;
+  	
+}
+
+.hero-title {
+	background-color: #ffffff;
+	width: 100%;
+
+}
+
+.portfolio {
+	margin-top: 4em;
+}
+
+.portfolio h3 {
+	text-align: center;
+}
+
+.portfolio-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 6em;
+}
+
+.portfolio-container img {
+	height: 300px;
+	width: 300px;
+	
+}
+
+.portfolio-container h3 {
+	text-align: center;
+}
+
+
+
+.team {
+	text-align: center;
+	background-image: url("https://wallup.net/wp-content/uploads/2016/05/02/246393-city-London-England-Tower_Bridge-bridge-street-street_light-night-cobblestone-River_Thames.jpg");
+	position: relative;
+	margin-left: -2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.team-container {
+	display: flex;
+	margin-top: 4em;
+
+}
+
+.team-container h2 {
+	color: lightgreen;
+}
+
+
+img {
+	height: 350px;
+	width: 350px;
+	margin-left: 2em;
+}
+
+footer {
+	text-align: center;
+}
+
+footer h4 {
+	margin-top: 4em;
+}
